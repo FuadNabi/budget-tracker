@@ -11,6 +11,7 @@ class CategoriesController < ApplicationController
   def show
     @category = Category.find(params[:id])
     @entities = @category.entities
+    authorize! :read, @category
   end
 
   # GET /categories/new
