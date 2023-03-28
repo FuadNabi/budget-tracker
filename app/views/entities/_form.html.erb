@@ -20,13 +20,14 @@
 
   <div>
     <%= form.label :amount, style: "display: block" %>
-    <%= form.text_field :amount %>
+    <%= form.number_field :amount, step: "0.01"  %>
   </div>
 
   <div>
     <%= form.label :category_ids, 'Categories' %>
     <%= form.select :category_ids, @categories.map { |category| [category.name, category.id, selected: @category_id == category.id] }, {include_blank: false}, { multiple: true} %>
   </div>
+  <%= form.hidden_field :category_id, value: @category_id %>
 
   <div>
     <%= form.submit %>

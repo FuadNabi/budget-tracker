@@ -1,9 +1,9 @@
 <% if(user_signed_in?) %>
   <%= button_to "Sign out", destroy_user_session_path, :method => :delete, data: {turbo: false}, class: "hover home-inner"%>
 <% end %>
+<p style="color: green"><%= notice %></p>
 
 <h1>Categories</h1>
-
 <div id="categories">
   <% @categories.each do |category| %>
     <%= render category %>
@@ -12,4 +12,5 @@
     </p>
   <% end %>
 </div>
+<div class="height"></div>
 <%= link_to "Add a new category", new_category_path, class: 'add-category-btn' %>

@@ -13,4 +13,4 @@
 <% end %>
 <p><%= link_to "Back to categories", categories_path %></p>
 <p><%= link_to "New entity", "#{new_entity_path}?category_id=#{@category.id}" %></p>
-<p><%= link_to "Delete category", category_path(@category), method: :delete, data: { confirm: "Are you sure?" } %></p>
+<p><%= button_to "Delete category", @category, method: :delete %></p>

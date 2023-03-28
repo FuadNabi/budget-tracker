@@ -5,8 +5,8 @@
   <p>
     <strong>Name:</strong>
     <%= category.name %>
+    $<%= category.entities.sum(:amount)%>
   </p>
     <small><%= category.created_at.strftime("%d %b %Y") %></small>
-
-
+    <p><%= button_to "Delete category", category, method: :delete %></p>
 </div>
