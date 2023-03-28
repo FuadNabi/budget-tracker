@@ -1,4 +1,6 @@
-<p style="color: green"><%= notice %></p>
+<% if(user_signed_in?) %>
+  <%= button_to "Sign out", destroy_user_session_path, :method => :delete, data: {turbo: false}, class: "hover home-inner"%>
+<% end %>
 
 <h1>Categories</h1>
 
@@ -10,5 +12,4 @@
     </p>
   <% end %>
 </div>
-
-<%= link_to "New category", new_category_path %>
+<%= link_to "Add a new category", new_category_path, class: 'add-category-btn' %>

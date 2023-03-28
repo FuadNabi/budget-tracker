@@ -1,3 +1,5 @@
+<%= params[:category_id]%>
+
 <%= form_with(model: entity) do |form| %>
   <% if entity.errors.any? %>
     <div style="color: red">
@@ -19,6 +21,11 @@
   <div>
     <%= form.label :amount, style: "display: block" %>
     <%= form.text_field :amount %>
+  </div>
+
+  <div>
+    <%= form.label :category_ids, 'Categories' %>
+    <%= form.select :category_ids, @categories.map { |category| [category.name, category.id, selected: @category_id == category.id] }, {include_blank: false}, { multiple: true} %>
   </div>
 
   <div>
