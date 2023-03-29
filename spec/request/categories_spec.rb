@@ -5,7 +5,7 @@ RSpec.describe '/categories', type: :request do
 
   describe 'GET /new' do
     before do
-      @user = User.create(name: 'Fuad', email: 'fuad@gmail.com', password: '123123', password_confirmation: '123123')
+      @user = User.create(name: 'User', email: 'fuad@gmail.com', password: '123123', password_confirmation: '123123')
       sign_in @user
       get new_category_path
     end
