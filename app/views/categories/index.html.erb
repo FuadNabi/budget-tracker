@@ -2,6 +2,7 @@
   <%= button_to "Sign out", destroy_user_session_path, :method => :delete, data: {turbo: false}, class: "hover home-inner"%>
 <% end %>
 <p style="color: green"><%= notice %></p>
+<i class="fa-solid fa-bars"></i>
 <%= Category.total_amount(current_user.id)%>
 <h1>Categories</h1>
 <div id="categories">
