@@ -238,3 +238,39 @@ body {
 .transactions-title {
   text-align: center;
 }
+
+.transaction {
+  display: flex;
+  justify-content: space-around;
+  border-top: 1px solid rgba(190, 190, 190, 0.616);
+}
+
+.transaction h4 {
+  color: rgba(0, 0, 0, 0.705);
+}
+
+.select-cont {
+  display: flex;
+  flex-direction: column;
+}
+
+.select-cont select {
+  width: 90%;
+  margin: auto;
+}
+
+.select-cont select option {
+  font-size: 20px;
+  text-align: center;
+  border-top: 1px solid rgba(190, 190, 190, 0.616);
+  color: #868e8fd8;
+}
+
+.transaction h3 {
+  text-transform: capitalize;
+}
+
+.select-category {
+  text-align: center;
+  margin-bottom: 7px;
+}
