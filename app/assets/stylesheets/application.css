@@ -3,11 +3,20 @@
 body {
   font-family: 'Proxima Nova', sans-serif;
   margin: 0;
+  background-color: #cecece30;
+  color: #434b549a;
 }
 
 .logo {
   width: 29px;
   height: 29px;
+}
+
+.notice-msg {
+  color: white;
+  background-color: #5fb523;
+  margin: 0;
+  text-align: center;
 }
 
 .home-container {
@@ -43,6 +52,11 @@ body {
   padding: 15px 0;
   text-align: center;
   width: 90%;
+}
+
+.category-name-date a {
+  color: rgba(0, 0, 0, 0.705);
+  text-decoration: none;
 }
 
 .home-links a {
@@ -107,6 +121,14 @@ body {
   font-weight: 100;
 }
 
+.nav-bar-btn {
+  background-color: transparent;
+  color: white;
+  border: none;
+  font-size: 15px;
+  padding: 0;
+}
+
 .home-input {
   margin-top: 15px;
 }
@@ -130,4 +152,55 @@ body {
 .back-link {
   width: 48px;
   color: white;
+}
+
+.total-amount {
+  display: flex;
+  justify-content: space-between;
+  margin: 0;
+  background-color: #fff;
+  padding: 20px 10px;
+  font-weight: 100;
+}
+
+.total-amount span {
+  font-weight: 600;
+  color: rgba(0, 0, 0, 0.705);
+}
+
+.categories-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 85%;
+  margin: 15px auto;
+  background-color: white;
+  box-shadow: rgba(0, 0, 0, 0.24) 0 3px 8px;
+  padding: 5px 10px;
+}
+
+#amount {
+  text-align: right;
+  color: rgba(0, 0, 0, 0.705);
+  font-weight: 600;
+}
+
+.category-name-date {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 25px;
+}
+
+.category-info {
+  display: flex;
+  gap: 10px;
+}
+
+.category-delete-btn {
+  border: none;
+  background-color: #3778c2;
+  color: #fff;
+  padding: 5px 10px;
+  border-radius: 3px;
 }
