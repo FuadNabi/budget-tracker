@@ -1,4 +1,3 @@
-<p class="notice-msg"><%= notice %></p>
 <nav class="nav-bar">
   <a href="../" class="back-link"><i class='fa-solid fa-bars fa-xl'></i></a>
   <h2>Categories</h2>
@@ -6,6 +5,7 @@
     <%= button_to "Sign out", destroy_user_session_path, :method => :delete, data: {turbo: false}, class: "nav-bar-btn"%>
   <% end %>
 </nav>
+<p class="notice-msg"><%= notice %></p>
 <h3 class="total-amount">Total amount: <span>$<%= Category.total_amount(current_user.id)%></span></h3>
 <div id="categories" class="categories-container">
   <% @categories.each do |category| %>
