@@ -5,6 +5,7 @@
     <%= button_to "Sign out", destroy_user_session_path, :method => :delete, data: {turbo: false}, class: "nav-bar-btn"%>
   <% end %>
 </nav>
+<p class="notice-msg"><%= notice %></p>
 <div class="category">
   <div class="category-item-info">
     <img src="<%= @category.icon%>" class='category-icon'>
@@ -13,7 +14,7 @@
     <h4 class="total-amount">Total amount: <span>$<%= @category.entities.sum(:amount)%></span></h4>
   <% if @entities.empty? %>
     <h2 class="transactions-title">Transactions</h2>
-    <p class="transactions-title">No entities have been added yet.</p>
+    <p class="transactions-title">No transactions have been added yet.</p>
   <% else %>
     <h2 class="transactions-title">Transactions</h2>
       <% @entities.each do |entity| %>
