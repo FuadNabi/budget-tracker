@@ -59,7 +59,7 @@
 
 ### 🚀 Live Demo <a name="live-demo"></a>
 
-- [Budget Tracker](https://github.com/FuadNabi/budget-tracker)
+- [Budget Tracker](git@github.com:FuadNabi/budget-tracker.git)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
