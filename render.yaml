@@ -1,7 +1,7 @@
 databases:
   - name: budget-tracker
-    databaseName: budget-tracker
-    user: budget-tracker
+    databaseName: budget_tracker_development
+    user: postgres
 
 services:
   - type: web
