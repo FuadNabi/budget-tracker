@@ -29,8 +29,8 @@
 
 > Budget Tracker provides track of daily transaction that helps make wise financial desicions.
 
- ![screenshot](app\assets\images\Screenshot-2023-03-29-181410.png)
- ![screenshot](app\assets\images\Screenshot-2023-03-29-181349.png)
+ ![screenshot](app/assets/images/Screenshot-2023-03-29-181410.png)
+ ![screenshot](app/assets/images/Screenshot-2023-03-29-181349.png)
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -59,7 +59,7 @@
 
 ### 🚀 Live Demo <a name="live-demo"></a>
 
-- [Budget Tracker](git@github.com:FuadNabi/budget-tracker.git)
+- [Budget Tracker](https://budget-tracker-azmz.onrender.com)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -145,7 +145,11 @@ If you like this project by staring it.
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-I would like to thank Microverse for the project.
+I would like to thank Microverse for learning.
+Original design idea by [Gregoire Vella on Behance](https://www.behance.net/gregoirevella).
+Please follow the link to read [The Creative Commons license of the design](https://creativecommons.org/licenses/by-nc/4.0/).
+
+Icons were provided by [Justicon](https://www.flaticon.com/authors/justicon)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
