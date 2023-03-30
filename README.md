@@ -93,7 +93,7 @@ Clone this repository by using the command line :
 
 Install this project with:
 
-`npm gemfile`
+`bundle install`
 
 ### Usage
 
