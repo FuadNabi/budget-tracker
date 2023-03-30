@@ -2,6 +2,7 @@ databases:
   - name: budget-tracker
     databaseName: budget_tracker_development
     user: budget_tracker
+    plan: free
 
 services:
   - type: web
@@ -16,3 +17,4 @@ services:
           property: connectionString
       - key: RAILS_MASTER_KEY
         sync: false
+    plan: free
