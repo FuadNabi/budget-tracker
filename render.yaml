@@ -1,16 +1,18 @@
 databases:
-  - name: postgres
+  - name: budget-tracker
+    databaseName: budget-tracker
+    user: budget-tracker
 
 services:
   - type: web
-    name: rails
+    name: budget-tracker
     env: ruby
     buildCommand: "./bin/render-build.sh"
     startCommand: "bundle exec puma -C config/puma.rb"
     envVars:
-      - key: RAILS_MASTER_KEY
-        sync: false
       - key: DATABASE_URL
         fromDatabase:
-          name: postgres
+          name: budget-tracker
           property: connectionString
+      - key: RAILS_MASTER_KEY
+        sync: false
