@@ -27,7 +27,7 @@
 
 # 📖 Budget Tracker <a name="about-project"></a>
 
-> Budget Tracker provides track of daily transaction that helps make wise financial desicions.
+> Budget Tracker is a website that provides a track of daily transactions that helps make wise financial decisions.
 
  ![screenshot](app/assets/images/Screenshot-2023-03-29-181410.png)
  ![screenshot](app/assets/images/Screenshot-2023-03-29-181349.png)
