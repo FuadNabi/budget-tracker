@@ -110,7 +110,7 @@ To run the project, execute the following command:
 👤 **Fuad Nabiyev**
 
 - GitHub: [@githubhandle](https://github.com/FuadNabi)
-- Twitter: [@twitterhandle](https://twitter.com/FuadNebiyev2)
+- Twitter: [@twitterhandle](https://twitter.com/FuadNabiyev_)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/fuad-nabiyev/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
