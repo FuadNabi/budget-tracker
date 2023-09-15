@@ -152,3 +152,8 @@ Icons were provided by [Justicon](https://www.flaticon.com/authors/justicon)
 ## 📝 License <a name="license"></a>
 
 This project is [MIT](https://github.com/FuadNabi/budget-tracker/blob/create-readme/LICENSE) licensed.
+
+## :handshake: Contributing
+
+Contributions, issues, and feature requests.
+Feel free to check the [issues page](https://github.com/FuadNabi/budget-tracker/issues).
