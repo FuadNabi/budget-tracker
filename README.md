@@ -113,7 +113,7 @@ To run the project, execute the following command:
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- **Add style for wide screens**
+- **Add style for wide screen**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
