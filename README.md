@@ -38,6 +38,7 @@
 
 <details>
   <summary>Ruby on Rails</summary>
+  
   <ul>
     <li><a href="https://ruby-doc.org/core-3.1.2/">Ruby</a></li>
   </ul>
