@@ -43,7 +43,7 @@
     <li><a href="https://ruby-doc.org/core-3.1.2/">Ruby</a></li>
   </ul>
     <ul>
-    <li><a href="https://ruby-doc.org/core-3.1.2/">Rails</a></li>
+    <li><a href="https://ruby-doc.org/core-3.1.2/">Rails </a></li>
   </ul>
 </details>
 
