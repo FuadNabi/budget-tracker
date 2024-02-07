@@ -73,7 +73,7 @@
 
 ### Prerequisites
 
-In order to run this project you need:
+In order to run this project you need
 
 - Install ruby on your computer or run in with docker
 - Run `ruby main`
